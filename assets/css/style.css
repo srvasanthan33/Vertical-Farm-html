@@ -10,7 +10,9 @@
     justify-content: space-between;
     padding: 25px 30px;
 }
-
+.header a:hover {
+    border-bottom: solid 1px white;
+}
 .nav-bar {
     display: flex;
     list-style: none;
@@ -37,7 +39,19 @@
     color: black;
     border-radius: 20px;
 }
+#account:hover {
+    background-color: rgb(191, 199, 36);
+}
 
 section {
-    padding-top: 200px;
+    padding: 150px 60px 0px 60px;
+}
+
+.content-1 {
+    font-size: 60px;
+}
+
+.highlight {
+    background-color: rgb(232, 243, 32);
+    color: #000;
 }
